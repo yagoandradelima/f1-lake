@@ -60,8 +60,6 @@ if __name__ == "__main__":
 
     args = parser.parse_args()
 
-# Testando a classe de coleta de dados
+    # Testando a classe de coleta de dados
     collect = CollectResults(args.years, args.modes)
     collect.process_years()
-
-# %%
